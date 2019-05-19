@@ -15,10 +15,11 @@ public class DumpDataWriter {
     static byte oneByte = 1;
     static String input1MB="input1MB.txt";
     static String input10MB="input10MB.txt";
-    static String input100MB="input100MB.txt";
-    static String input1000MB="input1000MB.txt";
+    //String input100MB="input100MB.txt";
+    //String input1000MB="input1000MB.txt";
 
     public static void main(String[] args) throws IOException {
+    	
         writeDumpData(input1MB, size1MB);
         writeDumpData(input10MB, size10MB);
         //writeDumpData(input100MB, size100MB);
